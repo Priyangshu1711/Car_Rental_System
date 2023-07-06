@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/style.css') }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    
+    <header>
+
+        <a href="#"class="logo"><img src="static/WhatsApp Image 2023-02-02 at 01.52.24.jpeg"alt=""></a>
+        <div class="bx bx-menu"id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#ride">Ride</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+        <div class="header-btn">
+            
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+            <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign In</button>        </div>
+    </header>
+    
+    <section class="home"id="home">
+        <div class="text">
+            <h1><span>Looking</span> to<br>rent a car</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adi<br> pisicing elit .<br>Maiores dignissimos officia quos</p>
+    
+            <div class="app-stores">
+                <img src="static/gpay.png" alt="">
+                <img src="static/ios.png"alt="">
+            </div>
+            
+
+            </div>
+
+        <div class="form-container">
+            <form action="/" method ="POST">
+                <div class="input-box">
+                    <span>Location</span>
+                    <input type="search"name="location"id="location"placeholder="Search Places">
+                </div>
+                <div class="input-box">
+                    <span>Pick-Up Date</span>
+                    <input type="date"name="pickdate"id="location">
+                </div>
+                <div class="input-box">
+                    <span>Return Date</span>
+                    <input type="date"name="returndate"id="returndate">
+                </div>
+                <input type="submit"name="details"id=""class="btn">
+
+            </form>
+        </div>
+    </section>
+    <section class="ride"id="ride">
+        <div class="heading">
+            <span>How it works</span>
+            <h1>Rent With 3 Easy Ways</h1>
+        </div>
+        <div class="ride-container">
+            <div class="box">
+                <i class='bx bxs-map'></i>
+                <h2>Choose A Location</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi sit temporibus quibusdam eaque aperiam error, laborum quasi quia illo! Repellendus fuga pariatur dolore deleniti molestiae quos cupiditate quo provident laborum.<p>
+            </div>
+            <div class="box">
+                <i class='bx bxs-calendar-check'></i>
+                <h2>Pick-Up Date</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi sit temporibus quibusdam eaque aperiam error, laborum quasi quia illo! Repellendus fuga pariatur dolore deleniti molestiae quos cupiditate quo provident laborum.</p>
+            </div>
+            <div class="box">
+                <i class='bx bxs-calendar-star'></i>
+                <h2>Book A Car</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi sit temporibus quibusdam eaque aperiam error, laborum quasi quia illo! Repellendus fuga pariatur dolore deleniti molestiae quos cupiditate quo provident laborum.<p>
+            </div>
+        </div>
+    </section>
+    <section class="services"id="services">
+        <div class="heading">
+            <span>Best Services</span>
+            <h1>Explore Out Top Deals<br>From Top Rated Dealers</h1>
+        </div>
+        <div class="services-container">
+            <div class="box">
+                <div class="box-img">
+                    <img src="static/black car.jpeg"alt="">
+                </div>
+                <p>2017<p>
+                <h3>2018  Ford Mustang</h3>
+                <h2>$58500 | $358 <span>/month</span></h2>
+                <a href="#"class="btn">Rent Now</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="static/redcar.jpg"alt="">
+                </div>
+                <p>2017<p>
+                <h3>2018  Ford Mustang</h3>
+                <h2>$58500 | $358 <span>/month</span></h2>
+                <a href="#"class="btn">Rent Now</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="static/whitw car.jpg"alt="">
+                </div>
+                <p>2017<p>
+                <h3>2018 Ford Mustang</h3>
+                <h2>$58500 | $358 <span>/month</span></h2>
+                <a href="#"class="btn">Rent Now</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="static/bmw.jpg"alt="">
+                </div>
+                <p>2017<p>
+                <h3>2018  Ford Mustang</h3>
+                <h2>$58500 | $358 <span>/month</span></h2>
+                <a href="#"class="btn">Rent Now</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="static/bun.jpg"alt="">
+                </div>
+                <p>2017<p>
+                <h3>2018  Ford Mustang</h3>
+                <h2>$58500 | $358 <span>/month</span></h2>
+                <a href="#"class="btn">Rent Now</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="static/vit.jpg"alt="">
+                </div>
+                <p>2017<p>
+                <h3>2018  Ford Mustang</h3>
+                <h2>$58500 | $358 <span>/month</span></h2>
+                <a href="#"class="btn">Rent Now</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="static/yellow.jpg"alt="">
+                </div>
+                <p>2017<p>
+                <h3>2018  Ford Mustang</h3>
+                <h2>$58500 | $358 <span>/month</span></h2>
+                <a href="#"class="btn">Rent Now</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="static/nu.webp"alt="">
+                </div>
+                <p>2017<p>
+                <h3>2018  Ford Mustang</h3>
+                <h2>$58500 | $358 <span>/month</span></h2>
+                <a href="#"class="btn">Rent Now</a>
+            </div>
+
+            
+
+        </div>
+    </section>
+    <section class="about"id="about">
+        <div class="heading">
+            <span>About Us</span>
+            <h1>Best Customer Experience</h1>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="static/ero.jpg"alt="">
+            </div>
+            <div class="about-text">
+                <span>About Us</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore ipsum alias molestias cupiditate quibusdam placeat facilis repudiandae! Placeat perferendis sequi facere recusandae quis suscipit similique fugiat magni voluptate ut!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita excepturi aut nihil ut ea numquam assumenda, ullam, laudantium ab repellendus quasi sapiente eius? Inventore repellat nobis laborum distinctio? Assumenda, nulla.</p>
+                <a href="#"class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section classs="reviews"id="reviews">
+        <div class="heading">
+            <span>Reviews</span>
+            <h1>What Our Customer Say</h1>
+        </div>
+        <div class="reviews-container">
+            <div class="box">
+                <div class="rev-img">
+                    <img src="static/men1.jpg"alt="">
+                    </div>
+                    <h2>Someone Name</h2>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem unde modi asperiores nam aperiam ad quia iusto, animi minus soluta quae iure corporis, placeat tempora quod magnam? Animi, nisi voluptas?</p>
+                    
+                </div>
+                <div class="box">
+                    <div class="rev-img">
+                        <img src="static/women1.jpg"alt="">
+                        </div>
+                        <h2>Someone Name</h2>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi neque molestiae, eos culpa eveniet reiciendis maxime praesentium impedit delectus dolorum ex, voluptatum rerum consequuntur totam quasi omnis perspiciatis veniam sunt?</p>
+                    </div>
+                    <div class="box">
+                        <div class="rev-img">
+                            <img src="static/whitewom.jpg"alt="">
+                            </div>
+                            <h2>Someone Name</h2>
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star-half' ></i>
+                            </div>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio libero voluptas, dolorem enim minus animi, reiciendis saepe aut in aspernatur perferendis odit eum omnis eius iure exercitationem? Reprehenderit, dolores inventore.</p>p>
+                            
+                        </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="newsletter">
+        <h2>Subscribe To Newsletter</h2>
+        <div class="box">
+            <input type="text"placeholder="Enter Your Email...">
+            <a href="#"class="btn">Subscribe</a>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&#169; CarpoolVenom All Right Reserved</p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+
+
+        </div>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="static/JS/main.js"></script>
+
+<!--------------------------------------------------signup html-------------------------------------------> 
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/" method ="POST">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="name"><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="name" required>
+      
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="password"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" required>
+
+      <label for="password-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="password-repeat" required>
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" onclick="myFunction()" name = "signup" class="signupbtn">Sign Up</button>
+        <div id="snackbar">Some text some message..</div>
+        
+      </div>
+    </div>
+  </form>
+</div>
+<!--------------------------------------------------signin html-------------------------------------------> 
+<div id="id02" class="modal">
+  <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/" method ="POST">
+    <div class="container">
+      <h1>Sign In</h1>
+      <p>Please provide Sign In details.</p>
+      <hr>
+      <label for="name"><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="name" required>
+
+      <label for="password"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" required>
+
+      <label for="password-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="password-repeat" required>
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" onclick="myFunction()" name = "signin" class="signupbtn">Sign In</button>
+        <div id="snackbar">Some text some message..</div>
+      </div>
+    </div>
+  </form>
+</div>
+
+    
